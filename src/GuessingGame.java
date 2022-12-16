@@ -3,7 +3,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class GuessingGame {
-   GuessingGame game = new GuessingGame();
+   //GuessingGame game = new GuessingGame();
 
     public static void main(String[] args) throws InterruptedException {
         System.out.println("Greetings, what's your name?");
@@ -27,7 +27,7 @@ public class GuessingGame {
                  userGuess = scan.nextInt();
             } catch (InputMismatchException e){
                 String err_input = scan.next();
-                System.out.println("That is not a valid interger n00b, TRY AGAIN:");
+                System.out.println("That is not a valid integer n00b, TRY AGAIN:");
                 continue;
             }
             if (userGuess < 1 || userGuess> 100) {

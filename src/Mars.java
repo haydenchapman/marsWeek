@@ -20,6 +20,7 @@ public class Mars {
         }
         landingCheck(4);
         new GuessingGame();
+        new MarsExpedition();
     //main end
     }
     public static boolean landingCheck(int minutesLeft) throws InterruptedException{
